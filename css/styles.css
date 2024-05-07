@@ -1,0 +1,46 @@
+#homero {
+         width: 300px;
+         height: 300px;
+         margin: 20px;
+         background-color: cyan;
+         background-image: url(/imagenes/HomerSimpson.webp);
+         padding: 50px;
+         border: 5px solid darkblue;
+}
+#marge { 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(27, 139, 27);
+    background-image: url(/imagenes/marge.png);
+    padding: 50px;
+    border: 5px solid darkblue;
+}
+#bart { 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: orangered;
+    background-image: url(/imagenes/Bart_Simpson_200px.png);
+    padding: 50px;
+    border: 5px solid darkblue;
+}
+#lisa { 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(230, 29, 230);
+    background-image: url(/imagenes/Lisa_Simpson.png);
+    padding: 50px;
+    border: 5px solid darkblue;
+}
+
+@font-face { 
+    font-family: simpsons;
+    src: url(/Fonts/simpsonfont.otf);
+}
+
+h1 {
+    font-family: simpsons;
+}
+ 
